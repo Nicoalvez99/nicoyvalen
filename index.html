@@ -60,6 +60,36 @@
     #botonCopiar, #botonCopiarAlias {
         cursor: pointer;
     }
+    #cuenta {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .simply-section {
+        background-color: #fff;
+        color: black;
+        width: 80px;
+        height: 80px;
+        margin: 0 20px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .simply-amount {
+        display: block;
+        font-size: 20px;
+        font-family: 'Hind Siliguri', sans-serif;
+        margin: 0 10px;
+    }
+
+    .simply-word {
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 10px;
+    }
 </style>
 
 <body>
@@ -127,20 +157,27 @@
             <div class="col-12 text-center" data-aos="fade-up">
                 <i class="bi bi-whatsapp"></i>
                 <p class="m-0"><b>Confirmación</b></p>
-                <p>Agradecemos que confirmes tu asistencia antes del 1ro de Enero</p>
+                <p>Agradecemos que confirmes tu asistencia antes del 1ro de Febrero</p>
                 <a href="https://wa.me/541157351589" class="btn btn-primary">Contacto Novio</a>
                 <a href="https://wa.me/541151436255" class="btn btn-primary">Contacto Novia</a>
                 <p class="my-2">Esperamos contar con tu presencia</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 my-5 text-center">
+                <h3>Aún faltan...</h3>
+                <div id="cuenta" class="text-center"></div>
             </div>
         </div>
     </main>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="main.js"></script>
     <script src="index.js"></script>
+    <script src="simplyCountdown.min.js"></script>
+    <script src="contador.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
 </body>
-
 </html>
